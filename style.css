@@ -29,9 +29,24 @@ a {text-decoration:none;}
     padding:0px 80px;
 }
 
+.arrow-img {
+    width: 32px;
+    height: 30px;
+}
+
 .logo {
     display: inline-block;
     margin-right: 70%;
+}
+
+.logo-img {
+    width: 180px;
+    height: 46px;
+}
+
+.close-img {
+    width: 28px;
+    height: 28px;
 }
 
 .section-one {
@@ -82,6 +97,11 @@ a {text-decoration:none;}
     margin-top: 10px;
 }
 
+.target-img {
+    width: 46px;
+    height: 45px;
+}
+
 
 .content {
     font-size: 15px;
@@ -104,6 +124,11 @@ a {text-decoration:none;}
 
 .target-date .target-two {
     margin-top: 10px;
+}
+
+.target-two-img {
+    width: 46px;
+    height: 45px;
 }
 
 .content-two {
@@ -141,6 +166,11 @@ a {text-decoration:none;}
 
 .invest .investment {
     margin-top: 10px;
+}
+
+.investment-img {
+    width: 32px;
+    height: 44px;
 }
 
 .content-three {
@@ -277,12 +307,57 @@ a {text-decoration:none;}
 }
 
 .equity-details ul {
-    list-style: disc; 
-    padding-left: 20px;
+    /* list-style: disc;  */
+    padding-left: 20px; 
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 12px;
 }
+
+.equity-details ul li {
+    position: relative;
+    padding-left: 10px;
+}
+
+.equity-one ul li::before {
+    content: "\2022";
+    color: #14a388;
+    font-size: 40px;
+    font-weight: 700;
+    display: inline-block;
+    width: 5px;
+    padding-right: 20px;
+    position: absolute;
+    left: -15px;
+    bottom: -10px;
+}
+
+.equity-two ul li::before {
+    content: "\2022";
+    color: #13bc9c;
+    font-size: 40px;
+    font-weight: 700;
+    display: inline-block;
+    width: 5px;
+    padding-right: 20px;
+    position: absolute;
+    left: -15px;
+    bottom: -10px;
+}
+
+.equity-three ul li::before {
+    content: "\2022";
+    color: #425b77;
+    font-size: 40px;
+    font-weight: 700;
+    display: inline-block;
+    width: 5px;
+    padding-right: 20px;
+    position: absolute;
+    left: -15px;
+    bottom: -10px;
+}
+
 .equity-details ul li abbr {
     margin-left: 70px;
 }
@@ -326,3 +401,377 @@ a {
     color: #fff;
     padding: 10px 60px;
 }
+
+@media screen and (max-width: 1024px) {
+    .header {
+        display: flex;
+        width: 100%;
+        height: 60px;
+        background-color: #efefef;
+        box-shadow: 0px 0px 8px 0px #aaaaaa;
+        justify-content: space-between;
+        align-items: center;
+        padding:0px 50px;
+    }
+
+    .arrow-img {
+        width: 28px;
+        height: 26px;
+    }
+    
+    .logo {
+        display: inline-block;
+        margin-right: 60%;
+    }
+    
+    .logo-img {
+        width: 160px;
+        height: 40px;
+    }
+    
+    .close-img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .section-one {
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .section-one .text1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 36px;
+        color: #5b5b5b;
+        font-weight: 300;
+    }
+    
+    .section-one .text2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 9px;
+        color: #808080;
+        font-weight: 500;
+    }
+
+    .section-two {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: 35px auto;
+    }
+    
+    .car {
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        color: #4d4d4d;
+    }
+    
+    .car span {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 34px;
+        color: #4d4d4d;
+    }
+    
+    .target-amount {
+        display: flex;
+    }
+    
+    .target-amount .target {
+        margin-top: 10px;
+    }
+    
+    .target-img {
+        width: 42px;
+        height: 40px;
+    }
+    
+    
+    .content {
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        color: #4d4d4d;
+        margin-left: 14px;
+    }
+    
+    .content span {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 34px;
+        color: #4d4d4d;
+    }
+    
+    .target-date {
+        display: flex;
+    }
+    
+    .target-date .target-two {
+        margin-top: 10px;
+    }
+    
+    .target-two-img {
+        width: 42px;
+        height: 40px;
+    }
+    
+    .content-two {
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        color: #4d4d4d;
+        margin-left: 14px;
+    }
+    
+    .content-two span {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 34px;
+        color: #4d4d4d;
+    }
+    
+    .sip {
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        color: #4d4d4d;
+    }
+    
+    .sip span {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 34px;
+        color: #4d4d4d;
+    }
+    
+    .invest {
+        display: flex;
+    }
+    
+    .invest .investment {
+        margin-top: 10px;
+    }
+    
+    .investment-img {
+        width: 28px;
+        height: 40px;
+    }
+    
+    .content-three {
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        color: #4d4d4d;
+        margin-left: 14px;
+    }
+    
+    .content-three span {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 34px;
+        color: #4d4d4d;
+    }
+
+    .section-three {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: 35px auto;
+    }
+    
+    .chart {
+        width: 20%;
+    }
+    
+    .chart-circle {
+        position: relative;
+        width: 225px;
+        height: 225px;
+        border-style: solid;
+        border-width: 14px;
+        border-top-color: #425b77;
+        border-right-color: #425b77;
+        border-bottom-color: #13bc9c;
+        border-left-color: #14a388;
+        border-radius: 50%;
+        transform: rotate(45deg);
+    }
+    
+    .data .debt {
+        color: #12d6b0;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 22px;
+        padding-bottom: 8px;
+    }
+    
+    .data .equity {
+        color: #415a77;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 22px;
+    }
+    
+    .chart .quote {
+        font-size: 7px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+    
+    .box {
+        width: 65%;
+    }
+    
+    .equity-box {
+        display:flex; 
+        border:1px solid #ccc; 
+        border-radius:2px; 
+        justify-content:space-between; 
+        margin-bottom: 8px;
+    }
+    
+    .equity-box .equity-details { 
+        padding:4px 0px 14px 8px; 
+        width: 85%; 
+        display:inline-block; 
+    }
+    
+    .equity-box .equity-details h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        margin: 6px;
+        color: #666666;
+        font-size: 14px;
+    }
+    .equity-box .equity-amt-one {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        width: 17%;
+        display: flex;
+        background-color: #14a388;
+        color: #fff;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .equity-box .equity-amt-two {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        width: 17%;
+        display: flex;
+        background-color: #13bc9c;
+        color: #fff;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .equity-box .equity-amt-three {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        width: 17%;
+        display: flex;
+        background-color: #425b77;
+        color: #fff;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .equity-details ul {
+        padding-left: 18px; 
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        font-size: 10px;
+    }
+    
+    .equity-details ul li {
+        position: relative;
+        padding-left: 8px;
+    }
+    
+    .equity-one ul li::before {
+        content: "\2022";
+        color: #14a388;
+        font-size: 34px;
+        font-weight: 700;
+        display: inline-block;
+        width: 4px;
+        padding-right: 10px;
+        position: absolute;
+        left: -15px;
+        bottom: -10px;
+    }
+    
+    .equity-two ul li::before {
+        content: "\2022";
+        color: #13bc9c;
+        font-size: 34px;
+        font-weight: 700;
+        display: inline-block;
+        width: 4px;
+        padding-right: 10px;
+        position: absolute;
+        left: -15px;
+        bottom: -10px;
+    }
+    
+    .equity-three ul li::before {
+        content: "\2022";
+        color: #425b77;
+        font-size: 34px;
+        font-weight: 700;
+        display: inline-block;
+        width: 4px;
+        padding-right: 10px;
+        position: absolute;
+        left: -15px;
+        bottom: -10px;
+    }
+    
+    .equity-details ul li abbr {
+        margin-left: 50px;
+    }
+
+    .inr {
+        font-size: 7px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        margin-top: 10px;
+        margin-right: 20px;
+        text-align: end;
+    }
+    
+    .now {
+        text-align: center;
+    }
+    
+    a {
+        font-size: 16px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        border: 1px solid #12d6b0;
+        background-color: #12d6b0;
+        box-shadow: 1px 1px 3px 1px #aaaaaa;
+        border-radius: 2PX;
+        color: #fff;
+        padding: 8px 50px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        background-color: aqua;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        background-color: hotpink;
+    }
+}
+
