@@ -1,0 +1,328 @@
+*{
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+
+img {max-width:100%;}
+ul,ol {list-style:none;}
+a {text-decoration:none;}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 82px;
+    background-color: #efefef;
+    box-shadow: 0px 0px 12px 0px #aaaaaa;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 80px;
+}
+
+.logo {
+    display: inline-block;
+    margin-right: 70%;
+}
+
+.section-one {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.section-one .text1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color: #5b5b5b;
+    font-weight: 300;
+}
+
+.section-one .text2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    color: #808080;
+    font-weight: 500;
+}
+
+.section-two {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 45px auto;
+}
+
+.car {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #4d4d4d;
+}
+
+.car span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #4d4d4d;
+}
+
+.target-amount {
+    display: flex;
+}
+
+.target-amount .target {
+    margin-top: 10px;
+}
+
+
+.content {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #4d4d4d;
+    margin-left: 22px;
+}
+
+.content span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #4d4d4d;
+}
+
+.target-date {
+    display: flex;
+}
+
+.target-date .target-two {
+    margin-top: 10px;
+}
+
+.content-two {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #4d4d4d;
+    margin-left: 22px;
+}
+
+.content-two span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #4d4d4d;
+}
+
+.sip {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #4d4d4d;
+}
+
+.sip span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #4d4d4d;
+}
+
+.invest {
+    display: flex;
+}
+
+.invest .investment {
+    margin-top: 10px;
+}
+
+.content-three {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #4d4d4d;
+    margin-left: 22px;
+}
+
+.content-three span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #4d4d4d;
+}
+
+.section-three {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 35px auto;
+    padding: ;
+}
+
+.chart {
+    width: 24%;
+}
+
+.chart-circle {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-style: solid;
+    border-width: 17px;
+    border-top-color: #425b77;
+    border-right-color: #425b77;
+    border-bottom-color: #13bc9c;
+    border-left-color: #14a388;
+    border-radius: 50%;
+    transform: rotate(45deg);
+}
+
+.data {
+    position: absolute;
+    top: 20%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    transform: rotate(-45deg);
+    text-align: center;
+}
+
+.data .debt {
+    color: #12d6b0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    padding-bottom: 10px;
+}
+
+.data .equity {
+    color: #415a77;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.chart .quote {
+    font-size: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+.box {
+    width: 70%;
+}
+
+.equity-box {
+    display:flex; 
+    border:1px solid #ccc; 
+    border-radius:2px; 
+    justify-content:space-between; 
+    margin-bottom: 10px;
+}
+
+.equity-box .equity-details { 
+    padding:5px 0px 16px 10px; 
+    width: 85%; 
+    display:inline-block; 
+}
+
+.equity-box .equity-details h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin: 8px;
+    color: #666666;
+    font-size: 18px;
+}
+.equity-box .equity-amt-one {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    width: 15%;
+    display: flex;
+    background-color: #14a388;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.equity-box .equity-amt-two {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    width: 15%;
+    display: flex;
+    background-color: #13bc9c;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.equity-box .equity-amt-three {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    width: 15%;
+    display: flex;
+    background-color: #425b77;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.equity-details ul {
+    list-style: disc; 
+    padding-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+}
+.equity-details ul li abbr {
+    margin-left: 70px;
+}
+
+.equity-one:hover {
+    border-left: 4px solid #14a388;
+    transition: all 0.2s;
+}
+
+.equity-two:hover {
+    border-left: 4px solid #13bc9c;
+    transition: all 0.2s;
+}
+
+.equity-three:hover {
+    border-left: 4px solid #425b77;
+    transition: all 0.2s;
+}
+
+.inr {
+    font-size: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-top: 12px;
+    margin-right: 38px;
+    text-align: end;
+}
+
+.now {
+    text-align: center;
+}
+
+a {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    border: 1px solid #12d6b0;
+    background-color: #12d6b0;
+    box-shadow: 1px 1px 3px 1px #aaaaaa;
+    border-radius: 2PX;
+    color: #fff;
+    padding: 10px 60px;
+}
