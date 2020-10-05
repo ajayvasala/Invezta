@@ -1039,19 +1039,13 @@ a {text-decoration:none;}
         font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         font-size: 12px;
-        position: relative;
     }
     .equity-details-mob .large-cap::before {
         content: "\2022";
         color: #14a388;
         font-size: 36px;
         font-weight: 700;
-        display: inline-block;
-        width: 5px;
-        padding-right: 20px;
-        position: absolute;
-        left: 178px;
-        top: -18px;
+        padding-right: 5px;
     }
 
     .equity-details-mob .min {
@@ -1074,19 +1068,13 @@ a {text-decoration:none;}
         font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         font-size: 12px;
-        position: relative;
     }
     .equity-details-mob .mid-cap::before {
         content: "\2022";
         color: #13bc9c;
         font-size: 36px;
         font-weight: 700;
-        display: inline-block;
-        width: 5px;
-        padding-right: 20px;
-        position: absolute;
-        left: 166px;
-        top: -18px;
+        padding-right: 5px;
     }
 
     .equity-box-mob .equity-amt-two-mob {
@@ -1101,19 +1089,14 @@ a {text-decoration:none;}
         font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         font-size: 12px;
-        position: relative;
     }
     .equity-details-mob .long-term::before {
         content: "\2022";
         color: #425b77;
         font-size: 36px;
         font-weight: 700;
-        display: inline-block;
-        width: 5px;
-        padding-right: 20px;
-        position: absolute;
-        left: 140px;
-        top: -18px;
+        padding-right: 5px;
+
     }
 
     .equity-details-mob .min {
